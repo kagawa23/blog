@@ -54,9 +54,44 @@ deploy:
 如果用clone，那么这个主题文件夹会属于另外的repository，对主题配置文件修改的就没有了
 
 
-基本操作
+### 基本操作
 
 hexo clean    //清除生成文件
 hexo generate //生成静态文件
 hexo server   //本地运行blog
 hexo deloy    //发布博客
+
+
+#### 碰到的问题
+在执行`hexo clean`时，抛出error
+
+解决办法：重新安装hexo-util模块
+
+`npm install -- save-dev hexo-util`
+
+```bash
+ERROR Script load failed: themes/next/scripts/tags/exturl.js
+Error: Cannot find module 'hexo-util'
+    at Function.Module._resolveFilename (module.js:325:15)
+    at Function.Module._load (module.js:276:25)
+    at Module.require (module.js:353:17)
+    at require (/Users/pro/Documents/workspace/blog/node_modules/hexo/lib/hexo/index.js:214:21)
+    at /Users/pro/Documents/workspace/blog/themes/next/scripts/tags/exturl.js:8:12
+    at /Users/pro/Documents/workspace/blog/node_modules/hexo/lib/hexo/index.js:230:12
+    at tryCatcher (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at Promise._resolveCallback (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:432:57)
+    at Promise._settlePromiseFromHandler (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:524:17)
+    at Promise._settlePromise (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at /Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/bluebird/js/release/nodeback.js:42:21
+    at /Users/pro/Documents/workspace/blog/node_modules/hexo/node_modules/hexo-fs/node_modules/graceful-fs/graceful-fs.js:78:16
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+```
+
