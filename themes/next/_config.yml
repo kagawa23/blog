@@ -298,7 +298,7 @@ baidu_analytics: 3699e0ae4fc604e475a8e58e03d2f71
 disqus:
   enable: false
   shortname:
-  count: true
+  count: false
 
 # Hypercomments
 #hypercomments_id:
@@ -314,11 +314,11 @@ changyan:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2131056
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+#livere_uid:
 
 # Baidu Share
 # Available value:
@@ -394,9 +394,9 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: vaKY7iu4rEObyUzkvCQwtGIk-gzGzoHsz
+  app_key: qJaRWDs6lV2Gjtjp7Ofgxt6m
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
