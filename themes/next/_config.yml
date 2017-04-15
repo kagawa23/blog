@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -319,6 +319,12 @@ changyan:
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 livere_uid: MTAyMC8yODIzMS80ODAz
+
+# Support for weibo comments system.
+# weibo:
+#   enable: true
+#   appkey: 682936080
+
 
 # Baidu Share
 # Available value:
