@@ -1,7 +1,8 @@
 ---
 title: 如何搭建hexo博客
 date: 2017-04-14 14:29:24
-tags: quicknot
+tags: quicknote hexo next
+categories: blog 博客
 ---
 
 ## 如何搭建hexo博客

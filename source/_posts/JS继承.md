@@ -2,6 +2,7 @@
 title: JS继承
 date: 2017-04-14 14:29:24
 tags: javascript基础
+categories: 前端
 ---
 
 ## 构造函数的继承
