@@ -314,11 +314,11 @@ changyan:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-youyan_uid: 2131056
+#youyan_uid: 2131056
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid:
+livere_uid: MTAyMC8yODIzMS80ODAz
 
 # Baidu Share
 # Available value:
