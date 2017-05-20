@@ -1,5 +1,5 @@
 ---
-title: 使用 docker exec 命令行重定向stderr输出
+title: 使用 Dockerfile CMD 命令行重定向stderr输出
 date: 2017-05-20 07:49:35
 tags: docker
 ---
