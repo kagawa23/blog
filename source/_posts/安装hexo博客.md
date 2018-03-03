@@ -63,7 +63,33 @@ hexo server   //本地运行blog
 hexo deloy    //发布博客
 
 
-#### 碰到的问题
+### 添加html页面
+
+如果你是不想`hexo generate`时被模板改变你的html的话，可在在文件头加layout: false 例如新建一个404页面
+
+```
+layout: false
+title:"404"
+date: 2015-02-05 20:03:48
+---
+<html>
+<head>
+ <meta charset="UTF-8"/>
+<title>公益404</title>
+</head>
+<body>
+<h1>404 Page Not Found</h1>
+<br>
+<script type="text/javascript"src="http://www.qq.com/404/search_children.js"charset="utf-8">
+</script>
+<br>
+</body>
+</html>
+```
+
+
+
+### 碰到的问题
 在执行`hexo clean`时，抛出error
 
 解决办法：重新安装hexo-util模块

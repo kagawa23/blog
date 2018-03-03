@@ -6,7 +6,7 @@
 favicon: /favicon.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Kagawa23, zczhaozc"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -43,6 +43,7 @@ menu:
   tags: /tags
 #  about: /about
 #  sitemap: /sitemap.xml
+#  baidusitemap: /baidusitemap.xml
 #  commonweal: /404.html
 
 
